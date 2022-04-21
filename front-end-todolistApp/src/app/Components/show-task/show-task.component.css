@@ -1,0 +1,45 @@
+#tableHead{
+    color: whitesmoke !important;
+    background-color: #216583;
+    
+}
+
+.center { 
+    float: none; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+
+.btn1:hover {
+    background-color: white; /* Green */
+    color: white;
+  }
+
+#add-success-task-alert,
+#update-success-task-alert,
+#delete-success-task-alert{
+    display: none;
+}
+
+#add-success-task-alert,
+#update-success-task-alert,
+#delete-success-task-alert{
+    animation-name: fadeInAndOut;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes fadeInAndOut{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+
+}
+
+
+@keyframes fadeInAndOut{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}

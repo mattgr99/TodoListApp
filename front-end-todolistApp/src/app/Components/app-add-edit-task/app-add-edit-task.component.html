@@ -1,0 +1,18 @@
+<form>
+
+    <div>
+       
+        <div class="mb-3">
+            <label for="Decription" class="form-label">Decription Task</label>
+            <input type="text" class="form-control" [(ngModel)]="tasktoDO.description" name="Decription">
+        </div>
+        <button (click)="addTask()" *ngIf="tasktoDO.id==0" class="btn btn-primary">
+            Add
+        </button>
+
+        <button (click)="addTask()" *ngIf="tasktoDO.id!=0" class="btn btn-primary">
+            Update
+        </button>
+        
+    </div>
+</form>
