@@ -1,6 +1,6 @@
 # TodoListApp
-Backend: Spring Boot
-FrontEnd: Angular 
+- Backend: Spring Boot
+- FrontEnd: Angular 
 
 ## Dependencies
 
